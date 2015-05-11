@@ -3,7 +3,7 @@ gist.el is an elisp package which integrates GitHub Gist into Emacs.  It allows 
 
 What's not so obvious without looking into gist.el's sources is how to configure it to support multiple GitHub Gist back ends.  For example, given the case you are working against your company's own GitHub Enterprise server in addition to the public github.com server and you want to be able to access Gists on both servers.  This guide will give you some instructions on how to configure gist.el to support such multi back end environments.
 
-# gist.el GitHub profiles
+# Multiple gist.el GitHub profiles
 gist.el uses gh.el elisp package to access GitHub via its API. gh.el provides support for multiple back ends.  A configuration is stored in a profile and it supports multiple ones.  By default, it comes preconfigured with a single profile called github, which accesses GitHub's API via https://api.github.com.
 
 ## Listing profiles
