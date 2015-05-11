@@ -16,4 +16,4 @@ Adding a new back end is as easy as adding a new entry to this alist.  For examp
 If you call `gist-list` the first time and `gh-profile-current-profile` is unset or `nil`, you will get a prompt in the minibuffer to specify the profile you want to use.  In any buffer, if you set `gh-profile-current-profile` to a profile name (e.g. `"github"` or `"work"`) using setq and call a gist.el function (e.g. `gist-list`) from this buffer as current, it will select this profile rather than popping up the prompt.
 
 # Appendix
-This guide assumes that you installed gh.el and all of its dependencies as documented at https://github.com/defunkt/gist.el. It was written at the time Version 20150505.1341 was available from http://http://melpa.org/.
+This guide assumes that you installed gist.el and all of its dependencies as documented at https://github.com/defunkt/gist.el. It was written at the time Version 20150505.1341 was available from http://melpa.org/.
